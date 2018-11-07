@@ -97,7 +97,7 @@ public class newsKoreanFragment extends Fragment {
                                 newsBean newsBean = new newsBean();
                                 newsBean.setTitle(obj.getString("title"));
                                 newsBean.setUrlToImage(obj.getString("urlToImage"));
-                                newsBean.setContent(obj.getString("content"));
+                                newsBean.setContent(obj.getString("description"));
 
                                 news.add(newsBean);
                             }

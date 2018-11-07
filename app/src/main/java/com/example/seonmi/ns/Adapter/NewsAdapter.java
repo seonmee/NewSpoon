@@ -61,10 +61,10 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.MyViewHolder> 
 
         holder.TextView_title.setText(news.getTitle());
         String content = news.getContent();
-        if(content !=null && content.length() > 0){
-            holder.TextView_content.setText(content);
-        }//null 처리
 
+        if (content != null && content.length() > 0) {
+            holder.TextView_content.setText(content);
+        }
         Uri uri = Uri.parse(news.getUrlToImage());
 
         holder.ImageView_title.setImageURI(uri);
