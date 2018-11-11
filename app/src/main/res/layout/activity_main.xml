@@ -35,22 +35,29 @@
         app:tabIndicatorColor="@color/colorPrimary">
 
         <android.support.design.widget.TabItem
+            android:id="@+id/realtime_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="실시간" />
+
+        <android.support.design.widget.TabItem
             android:id="@+id/news_tab1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Left" />
+            android:text="국내" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/news_tab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Center" />
+            android:text="해외" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/scrap_tab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Right" />
+            android:text="스크랩" />
+
     </android.support.design.widget.TabLayout>
 
     <android.support.v4.view.ViewPager
