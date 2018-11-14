@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/WonJeeSun/NewSpoon2.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ravi8x/AndroidSQLite.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\DEV\workspace" />
